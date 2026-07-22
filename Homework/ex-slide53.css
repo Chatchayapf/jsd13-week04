@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+p{
+    margin: 0%;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 1px;
+  
+}
+
+.side{
+    width: 400px ;
+    height: auto;
+    /* border: black 1px solid;/ */
+    padding: 10px;
+}
+
+.side3box {
+     display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+
+.OB1{
+    display: inline-block ;
+    background-color: #326ab3;
+    border-radius: 20px;
+    color: white;
+    font-size: 50px;
+    padding: 5px;
+    width: fit-content;
+}
+
+.OB2{
+    display:inline-block ;
+    background-color: #32b34d;
+    border-radius: 20px;
+    font-size: 50px;
+    padding: 5px;
+    margin:0%;
+    width: fit-content;
+}
+
+.OB3{
+    display: inline-block;
+    background-color:yellow;
+    border-radius: 20px;
+    font-size: 50px;
+    padding: 5px;
+    margin:0%;
+    
+}
+
+a{
+    border: black 1px solid;
+    box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 1.00);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.textblod{
+    font-weight: 700   ;
+}
+
+
+/* ทำพร้อมเพื่อนๆใน discord คุณมาร์คเป็นคนนำ */

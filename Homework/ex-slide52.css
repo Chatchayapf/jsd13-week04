@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+h2{
+    margin-top: 0;
+}
+
+img{
+    height: 350px;
+    width:auto; 
+    box-shadow: 5px 5px 0px 5px rgb(25, 102, 196);
+    border-radius: 10px; 
+}
+
+a{
+    background-color: #80b9dc;
+    border: black;
+    /* border-radius: 5px; */
+    box-shadow: 5px 5px 0px 5px rgba(0, 0, 0, 1.00);
+    border-radius: 10px;
+    padding: 10px;
+}
+a:hover{
+    background-color: white;
+    box-shadow: 5px 5px 0px 5px rgba(0, 0, 0, 1.00);
+}
+
+/* ทำพร้อมเพื่อนๆใน discord คุณมาร์คเป็นคนนำ */

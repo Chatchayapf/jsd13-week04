@@ -1,0 +1,96 @@
+body {
+  font-family: 'mitr', sans-serif;
+  color: #00065c;
+}
+
+.page_Header {
+    font-style: italic;
+    font-size: larger ;
+    background: linear-gradient(135deg, #f3fa8f 0%, #ceff7e 100%);
+    border-bottom: 1px solid var(--line);
+    padding: 18px 0 16px;
+}
+
+/*หัวเมนู*/
+.page_two {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.page_two {
+  display: flex;
+  gap: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-grid__item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transform: translateX(-4px);
+  transition: all 0.4s;
+}
+
+/*รายการสินค้า*/
+.page_three {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.page_three {
+  display: flex;
+  gap: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-grid__item {
+  flex: 1;
+  background: #f1c2ff;
+  padding: 5px;
+  text-align: center;
+  border-radius: 999px;
+}
+.service-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.service-card {
+  flex: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.05;
+  color: #0b1a28;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.service-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  transition: all 0.4s;
+}
+
+/*footer*/
+
+
+@media (min-width: 768px) {
+    .card-container {
+        flex-direction: row; /* เปลี่ยนเป็นเรียงนอนข้างๆ กัน */
+    }
+    
+    .card {
+        flex: 1; /* แบ่งพื้นที่ความกว้างเท่าๆ กัน (2 คอลัมน์) */
+    }
+}
