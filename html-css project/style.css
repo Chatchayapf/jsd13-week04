@@ -1,17 +1,18 @@
 body {
   font-family: 'mitr', sans-serif;
   color: #00065c;
+  background-color: #faefe6;
 }
 
 .page_Header {
     font-style: italic;
     font-size: larger ;
-    background: linear-gradient(135deg, #f3fa8f 0%, #ceff7e 100%);
+    background:#f7dcff;
     border-bottom: 1px solid var(--line);
     padding: 18px 0 16px;
 }
 
-/*หัวเมนู*/
+/*เมนู*/
 .page_two {
   display: flex;
   flex-wrap: wrap;
